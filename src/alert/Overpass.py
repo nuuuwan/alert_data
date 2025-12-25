@@ -13,6 +13,22 @@ class Overpass:
     COUNTRY = "Sri Lanka"
 
     @staticmethod
+    def _query_overpass(query: str) -> dict:
+        response = requests.post(Overpass.URL, data={"data": query})
+        response.raise_for_status()
+        return response.json()
+
+    @staticmethod
+    def _extract_elements(data: dict) -> list:
+        return [dict(el) for el in data.get("elements", [])]
+
+    @staticmethod
+    def _fetch_and_save(query: str, file_id: str) -> None:
+        data = Overpass._query_overpass(query)
+        elements = Overpass._extract_elements(data)
+        StaticData(file_id).write(elements)
+
+    @staticmethod
     def get_cities():
         query = f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
@@ -24,17 +40,23 @@ class Overpass:
         );
         out center;
         """
+        Overpass._fetch_and_save(query, "_cities_from_overpass")
 
-        response = requests.post(Overpass.URL, data={"data": query})
-        response.raise_for_status()
-        data = response.json()
-
-        d_list = []
-        for el in data["elements"]:
-            d = dict(el)
-            d_list.append(d)
-        StaticData("_cities_from_overpass").write(d_list)
+    @staticmethod
+    def get_hospitals():
+        query = f"""
+        [out:json][timeout:{Overpass.TIMEOUT}];
+        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
+        (
+        node["amenity"="hospital"](area.country);
+        way["amenity"="hospital"](area.country);
+        relation["amenity"="hospital"](area.country);
+        );
+        out center;
+        """
+        Overpass._fetch_and_save(query, "_hospitals_from_overpass")
 
 
 if __name__ == "__main__":
     Overpass.get_cities()
+    Overpass.get_hospitals()
