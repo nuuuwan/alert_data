@@ -9,7 +9,7 @@ if __name__ == "__main__":
     _cities_from_overpass = StaticData("_cities_from_overpass").read()
 
     cities = []
-    for elem in _cities_from_overpass["elements"]:
+    for elem in _cities_from_overpass:
 
         try:
             tags = elem["tags"]
@@ -20,6 +20,9 @@ if __name__ == "__main__":
             )
             if not city["name"]:
                 log.error(f"Missing name for city with id: {elem['id']}")
+                continue
+
+            if population < 10_000:
                 continue
 
             cities.append(city)
