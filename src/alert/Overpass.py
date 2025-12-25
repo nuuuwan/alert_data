@@ -32,7 +32,7 @@ class Overpass:
         StaticData(file_id).write(elements)
 
     @staticmethod
-    def get_cities():
+    def download_cities():
         query = f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
         area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
@@ -46,7 +46,7 @@ class Overpass:
         Overpass._fetch_and_save(query, "_overpass_cities")
 
     @staticmethod
-    def get_hospitals():
+    def download_hospitals():
         query = f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
         area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
@@ -60,7 +60,7 @@ class Overpass:
         Overpass._fetch_and_save(query, "_overpass_hospitals")
 
     @staticmethod
-    def get_police_stations():
+    def download_police_stations():
         query = f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
         area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
@@ -74,7 +74,7 @@ class Overpass:
         Overpass._fetch_and_save(query, "_overpass_police_stations")
 
     @staticmethod
-    def get_fire_stations():
+    def download_fire_stations():
         query = f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
         area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
@@ -86,3 +86,10 @@ class Overpass:
         out center;
         """
         Overpass._fetch_and_save(query, "_overpass_fire_stations")
+
+    @staticmethod
+    def download_all():
+        Overpass.download_cities()
+        Overpass.download_hospitals()
+        Overpass.download_police_stations()
+        Overpass.download_fire_stations()
