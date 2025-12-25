@@ -32,59 +32,35 @@ class Overpass:
         StaticData(file_id).write(elements)
 
     @staticmethod
-    def download_cities():
-        query = f"""
+    def _build_node_query(node_filter: str) -> str:
+        """Build a common query template for node queries."""
+        return f"""
         [out:json][timeout:{Overpass.TIMEOUT}];
         area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
         (
-        node["place"~"city|town|village"](area.country);
-        way["place"~"city|town|village"](area.country);
-        relation["place"~"city|town|village"](area.country);
+        node[{node_filter}](area.country);
         );
         out center;
         """
+
+    @staticmethod
+    def download_cities():
+        query = Overpass._build_node_query('"place"~"city|town|village"')
         Overpass._fetch_and_save(query, "_overpass_cities")
 
     @staticmethod
     def download_hospitals():
-        query = f"""
-        [out:json][timeout:{Overpass.TIMEOUT}];
-        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
-        (
-        node["amenity"="hospital"](area.country);
-        way["amenity"="hospital"](area.country);
-        relation["amenity"="hospital"](area.country);
-        );
-        out center;
-        """
+        query = Overpass._build_node_query('"amenity"="hospital"')
         Overpass._fetch_and_save(query, "_overpass_hospitals")
 
     @staticmethod
     def download_police_stations():
-        query = f"""
-        [out:json][timeout:{Overpass.TIMEOUT}];
-        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
-        (
-        node["amenity"="police"](area.country);
-        way["amenity"="police"](area.country);
-        relation["amenity"="police"](area.country);
-        );
-        out center;
-        """
+        query = Overpass._build_node_query('"amenity"="police"')
         Overpass._fetch_and_save(query, "_overpass_police_stations")
 
     @staticmethod
     def download_fire_stations():
-        query = f"""
-        [out:json][timeout:{Overpass.TIMEOUT}];
-        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
-        (
-        node["amenity"="fire_station"](area.country);
-        way["amenity"="fire_station"](area.country);
-        relation["amenity"="fire_station"](area.country);
-        );
-        out center;
-        """
+        query = Overpass._build_node_query('"amenity"="fire_station"')
         Overpass._fetch_and_save(query, "_overpass_fire_stations")
 
     @staticmethod
