@@ -20,6 +20,38 @@ class Place:
         return (round(lat, 4), round(lon, 4))
 
     @staticmethod
+    def dedupe_by_name(places: list) -> None:
+        seen = set()
+        duplicates = []
+        for place in places:
+            if place["name"] in seen:
+                duplicates.append(place)
+            else:
+                seen.add(place["name"])
+        for place in duplicates:
+            places.remove(place)
+
+    @staticmethod
+    def dedupe_by_latlng(places: list) -> None:
+        PRECISION = 2
+        seen = set()
+        duplicates = []
+        for place in places:
+            lat, lng = place["lat_lng"]
+            crude_latlng = (round(lat, PRECISION), round(lng, PRECISION))
+            if crude_latlng in seen:
+                duplicates.append(place)
+            else:
+                seen.add(crude_latlng)
+        for place in duplicates:
+            places.remove(place)
+
+    @staticmethod
+    def dedupe(places: list) -> None:
+        Place.dedupe_by_name(places)
+        Place.dedupe_by_latlng(places)
+
+    @staticmethod
     def _build_places(
         input_key: str,
         output_key: str,
@@ -62,6 +94,7 @@ class Place:
                 continue
 
         places.sort(key=lambda p: p["name"])
+        Place.dedupe(places)
         StaticData(output_key).write(places)
 
     @staticmethod

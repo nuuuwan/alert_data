@@ -27,3 +27,6 @@ class StaticData:
         self.json_file.write(data)
         n = len(data)
         log.info(f"Wrote {n:,} items to {self.json_file}")
+
+    def exists(self):
+        return os.path.exists(self.json_file_path)
