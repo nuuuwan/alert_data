@@ -25,4 +25,5 @@ class StaticData:
 
     def write(self, data):
         self.json_file.write(data)
-        log.info(f"Wrote {self.json_file}")
+        n = len(data)
+        log.info(f"Wrote {n:,} items to {self.json_file}")
