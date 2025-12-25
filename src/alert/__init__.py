@@ -3,4 +3,5 @@
 
 from alert.Format import Format
 from alert.Overpass import Overpass
+from alert.Place import Place
 from alert.StaticData import StaticData

@@ -25,7 +25,8 @@ class Place:
                 )
                 if not place["name"]:
                     log.error(
-                        f"Missing name for city with id: {overpass_place['id']}"
+                        f"Missing name for city with id: {
+                            overpass_place['id']}"
                     )
                     continue
 
@@ -35,7 +36,8 @@ class Place:
                 places.append(place)
             except KeyError as e:
                 log.error(
-                    f"Missing expected tag {e} in element {overpass_place['id']}"
+                    f"Missing expected tag {e} in element {
+                        overpass_place['id']}"
                 )
                 continue
 
