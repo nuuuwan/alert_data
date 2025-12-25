@@ -80,6 +80,13 @@ class Place:
                     else:
                         continue
 
+                place["name"] = " ".join(
+                    [
+                        word[0].upper() + word[1:]
+                        for word in place["name"].strip().split()
+                    ]
+                )
+
                 if min_population > 0:
                     population = int(tags.get("population") or 0)
                     if population < min_population:
