@@ -22,12 +22,6 @@ if __name__ == "__main__":
                 log.error(f"Missing name for city with id: {elem['id']}")
                 continue
 
-            if population < 10_000:
-                log.warning(
-                    f"Skipping {city['name']} population: {population}"
-                )
-                continue
-
             cities.append(city)
         except KeyError as e:
             log.error(f"Missing expected tag {e} in element {elem['id']}")
