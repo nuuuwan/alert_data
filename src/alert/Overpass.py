@@ -1,3 +1,5 @@
+import time
+
 import requests
 from utils import Log
 
@@ -14,6 +16,7 @@ class Overpass:
 
     @staticmethod
     def _query_overpass(query: str) -> dict:
+        time.sleep(2)
         response = requests.post(Overpass.URL, data={"data": query})
         response.raise_for_status()
         return response.json()
@@ -40,7 +43,7 @@ class Overpass:
         );
         out center;
         """
-        Overpass._fetch_and_save(query, "_cities_from_overpass")
+        Overpass._fetch_and_save(query, "_overpass_cities")
 
     @staticmethod
     def get_hospitals():
@@ -54,9 +57,32 @@ class Overpass:
         );
         out center;
         """
-        Overpass._fetch_and_save(query, "_hospitals_from_overpass")
+        Overpass._fetch_and_save(query, "_overpass_hospitals")
 
+    @staticmethod
+    def get_police_stations():
+        query = f"""
+        [out:json][timeout:{Overpass.TIMEOUT}];
+        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
+        (
+        node["amenity"="police"](area.country);
+        way["amenity"="police"](area.country);
+        relation["amenity"="police"](area.country);
+        );
+        out center;
+        """
+        Overpass._fetch_and_save(query, "_overpass_police_stations")
 
-if __name__ == "__main__":
-    Overpass.get_cities()
-    Overpass.get_hospitals()
+    @staticmethod
+    def get_fire_stations():
+        query = f"""
+        [out:json][timeout:{Overpass.TIMEOUT}];
+        area["name"="{Overpass.COUNTRY}"]["boundary"="administrative"]["admin_level"="2"]->.country;
+        (
+        node["amenity"="fire_station"](area.country);
+        way["amenity"="fire_station"](area.country);
+        relation["amenity"="fire_station"](area.country);
+        );
+        out center;
+        """
+        Overpass._fetch_and_save(query, "_overpass_fire_stations")

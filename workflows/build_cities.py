@@ -6,10 +6,10 @@ log = Log("build_cities")
 
 
 if __name__ == "__main__":
-    _cities_from_overpass = StaticData("_cities_from_overpass").read()
+    _overpass_cities = StaticData("_overpass_cities").read()
 
     cities = []
-    for elem in _cities_from_overpass:
+    for elem in _overpass_cities:
 
         try:
             tags = elem["tags"]
