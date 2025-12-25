@@ -1,9 +1,23 @@
 [
   {
+    "name": "Adhikarigama",
+    "lat_lng": [
+      7.2135,
+      80.7806
+    ]
+  },
+  {
     "name": "Agalawatta",
     "lat_lng": [
       6.5423,
       80.1574
+    ]
+  },
+  {
+    "name": "Agarapathana",
+    "lat_lng": [
+      6.8641,
+      80.7055
     ]
   },
   {
@@ -14,10 +28,24 @@
     ]
   },
   {
+    "name": "Ahungalla",
+    "lat_lng": [
+      6.3138,
+      80.0351
+    ]
+  },
+  {
     "name": "Akkaraipattu",
     "lat_lng": [
       7.2141,
       81.8482
+    ]
+  },
+  {
+    "name": "Akkarayan",
+    "lat_lng": [
+      9.3127,
+      80.3112
     ]
   },
   {
@@ -77,6 +105,13 @@
     ]
   },
   {
+    "name": "Andigama",
+    "lat_lng": [
+      7.7764,
+      79.9491
+    ]
+  },
+  {
     "name": "Angoda",
     "lat_lng": [
       6.936,
@@ -112,10 +147,24 @@
     ]
   },
   {
+    "name": "Aranayake",
+    "lat_lng": [
+      7.1776,
+      80.4572
+    ]
+  },
+  {
     "name": "Ariyalai",
     "lat_lng": [
       9.6591,
       80.0477
+    ]
+  },
+  {
+    "name": "Atchuvely",
+    "lat_lng": [
+      9.7783,
+      80.1159
     ]
   },
   {
@@ -130,6 +179,13 @@
     "lat_lng": [
       6.9522,
       80.2126
+    ]
+  },
+  {
+    "name": "Ayagama",
+    "lat_lng": [
+      6.6387,
+      80.3121
     ]
   },
   {
@@ -154,10 +210,52 @@
     ]
   },
   {
+    "name": "Bakamuna",
+    "lat_lng": [
+      7.7772,
+      80.817
+    ]
+  },
+  {
     "name": "Balapitiya",
     "lat_lng": [
       6.2806,
       80.0406
+    ]
+  },
+  {
+    "name": "Ballaketuwa",
+    "lat_lng": [
+      6.8601,
+      81.0953
+    ]
+  },
+  {
+    "name": "Bamunaakotuwa",
+    "lat_lng": [
+      7.5716,
+      80.2489
+    ]
+  },
+  {
+    "name": "Bandaragama",
+    "lat_lng": [
+      6.7145,
+      79.989
+    ]
+  },
+  {
+    "name": "Bandarawela",
+    "lat_lng": [
+      6.8305,
+      80.9888
+    ]
+  },
+  {
+    "name": "Barigama",
+    "lat_lng": [
+      7.3281,
+      80.5778
     ]
   },
   {
@@ -203,6 +301,41 @@
     ]
   },
   {
+    "name": "Bingiriya",
+    "lat_lng": [
+      7.5983,
+      79.9373
+    ]
+  },
+  {
+    "name": "Bogahakumbura",
+    "lat_lng": [
+      6.8614,
+      80.8757
+    ]
+  },
+  {
+    "name": "Bogawantalawa",
+    "lat_lng": [
+      6.7962,
+      80.6781
+    ]
+  },
+  {
+    "name": "Bokkawala",
+    "lat_lng": [
+      7.3934,
+      80.5532
+    ]
+  },
+  {
+    "name": "Boralanda",
+    "lat_lng": [
+      6.829,
+      80.8945
+    ]
+  },
+  {
     "name": "Boralesgamuwa",
     "lat_lng": [
       6.8411,
@@ -217,10 +350,24 @@
     ]
   },
   {
+    "name": "Bulathkohupitiya",
+    "lat_lng": [
+      7.105,
+      80.3357
+    ]
+  },
+  {
     "name": "Bulathsinhala",
     "lat_lng": [
       6.6499,
       80.178
+    ]
+  },
+  {
+    "name": "Bulnewa",
+    "lat_lng": [
+      8.0443,
+      80.4449
     ]
   },
   {
@@ -242,6 +389,13 @@
     "lat_lng": [
       9.6579,
       80.1643
+    ]
+  },
+  {
+    "name": "Chenkalady",
+    "lat_lng": [
+      7.7851,
+      81.591
     ]
   },
   {
@@ -343,6 +497,13 @@
     ]
   },
   {
+    "name": "Deltota",
+    "lat_lng": [
+      7.1727,
+      80.696
+    ]
+  },
+  {
     "name": "Deniyaya",
     "lat_lng": [
       6.3426,
@@ -354,6 +515,13 @@
     "lat_lng": [
       6.9273,
       80.3385
+    ]
+  },
+  {
+    "name": "Dharga Town",
+    "lat_lng": [
+      6.4387,
+      80.0047
     ]
   },
   {
@@ -378,10 +546,31 @@
     ]
   },
   {
+    "name": "Divulapitiya",
+    "lat_lng": [
+      7.2245,
+      80.0194
+    ]
+  },
+  {
+    "name": "Diyabeduma",
+    "lat_lng": [
+      7.9342,
+      80.868
+    ]
+  },
+  {
     "name": "Diyatalawa",
     "lat_lng": [
       6.807,
       80.9572
+    ]
+  },
+  {
+    "name": "Dolosbage",
+    "lat_lng": [
+      7.0817,
+      80.469
     ]
   },
   {
@@ -420,6 +609,13 @@
     ]
   },
   {
+    "name": "Ella",
+    "lat_lng": [
+      6.8736,
+      81.049
+    ]
+  },
+  {
     "name": "Elpitiya",
     "lat_lng": [
       6.2919,
@@ -434,6 +630,13 @@
     ]
   },
   {
+    "name": "Eppawala",
+    "lat_lng": [
+      8.1461,
+      80.4114
+    ]
+  },
+  {
     "name": "Etampitiya",
     "lat_lng": [
       6.9361,
@@ -445,6 +648,20 @@
     "lat_lng": [
       7.373,
       80.5247
+    ]
+  },
+  {
+    "name": "Galapitamada",
+    "lat_lng": [
+      7.1399,
+      80.2348
+    ]
+  },
+  {
+    "name": "Galenbindunuwewa",
+    "lat_lng": [
+      8.2924,
+      80.719
     ]
   },
   {
@@ -469,6 +686,13 @@
     ]
   },
   {
+    "name": "Galnewa",
+    "lat_lng": [
+      8.0355,
+      80.4802
+    ]
+  },
+  {
     "name": "Gampaha",
     "lat_lng": [
       7.0926,
@@ -480,6 +704,13 @@
     "lat_lng": [
       7.1636,
       80.5703
+    ]
+  },
+  {
+    "name": "Ganemulla",
+    "lat_lng": [
+      7.0683,
+      79.9614
     ]
   },
   {
@@ -497,10 +728,38 @@
     ]
   },
   {
+    "name": "Giritale",
+    "lat_lng": [
+      8.0003,
+      80.9244
+    ]
+  },
+  {
+    "name": "Giriulla",
+    "lat_lng": [
+      7.3299,
+      80.1225
+    ]
+  },
+  {
     "name": "Godakawela",
     "lat_lng": [
       6.5046,
       80.651
+    ]
+  },
+  {
+    "name": "Gomarankadawala",
+    "lat_lng": [
+      8.6746,
+      80.9562
+    ]
+  },
+  {
+    "name": "Gonagolla",
+    "lat_lng": [
+      7.4356,
+      81.6291
     ]
   },
   {
@@ -525,6 +784,13 @@
     ]
   },
   {
+    "name": "Haldummulla",
+    "lat_lng": [
+      6.7602,
+      80.8809
+    ]
+  },
+  {
     "name": "Hali-Ela",
     "lat_lng": [
       6.9552,
@@ -539,10 +805,31 @@
     ]
   },
   {
+    "name": "Hanguranketha",
+    "lat_lng": [
+      7.1775,
+      80.7755
+    ]
+  },
+  {
     "name": "Hanwella",
     "lat_lng": [
       6.9088,
       80.0817
+    ]
+  },
+  {
+    "name": "Haputhale",
+    "lat_lng": [
+      6.7681,
+      80.9586
+    ]
+  },
+  {
+    "name": "Hasalaka",
+    "lat_lng": [
+      7.3516,
+      80.9501
     ]
   },
   {
@@ -560,6 +847,13 @@
     ]
   },
   {
+    "name": "Hedeniya",
+    "lat_lng": [
+      7.3393,
+      80.5579
+    ]
+  },
+  {
     "name": "Hemmathagama",
     "lat_lng": [
       7.1739,
@@ -574,6 +868,13 @@
     ]
   },
   {
+    "name": "Hettipola",
+    "lat_lng": [
+      7.5369,
+      80.913
+    ]
+  },
+  {
     "name": "Hikkaduwa",
     "lat_lng": [
       6.1408,
@@ -581,10 +882,24 @@
     ]
   },
   {
+    "name": "Hingurakgoda",
+    "lat_lng": [
+      8.0415,
+      80.9532
+    ]
+  },
+  {
     "name": "Hingurana",
     "lat_lng": [
       7.2279,
       81.6731
+    ]
+  },
+  {
+    "name": "Hiripitiya",
+    "lat_lng": [
+      7.6569,
+      80.3692
     ]
   },
   {
@@ -613,6 +928,13 @@
     "lat_lng": [
       7.2973,
       80.8518
+    ]
+  },
+  {
+    "name": "Ibbagamuwa",
+    "lat_lng": [
+      7.5479,
+      80.4496
     ]
   },
   {
@@ -679,6 +1001,13 @@
     ]
   },
   {
+    "name": "Kahatagasdigiliya",
+    "lat_lng": [
+      8.4265,
+      80.6882
+    ]
+  },
+  {
     "name": "Kahawatta",
     "lat_lng": [
       6.5832,
@@ -704,6 +1033,13 @@
     "lat_lng": [
       7.4132,
       81.8269
+    ]
+  },
+  {
+    "name": "Kalubowitiyana",
+    "lat_lng": [
+      6.3138,
+      80.4023
     ]
   },
   {
@@ -735,6 +1071,13 @@
     ]
   },
   {
+    "name": "Kandaketiya",
+    "lat_lng": [
+      7.1702,
+      81.004
+    ]
+  },
+  {
     "name": "Kandana",
     "lat_lng": [
       7.0478,
@@ -753,6 +1096,27 @@
     "lat_lng": [
       9.8119,
       80.0374
+    ]
+  },
+  {
+    "name": "Kantale",
+    "lat_lng": [
+      8.367,
+      81.0028
+    ]
+  },
+  {
+    "name": "Kapungoda",
+    "lat_lng": [
+      7.1189,
+      79.841
+    ]
+  },
+  {
+    "name": "Karainagar",
+    "lat_lng": [
+      9.7404,
+      79.885
     ]
   },
   {
@@ -833,6 +1197,13 @@
     ]
   },
   {
+    "name": "Katuwana",
+    "lat_lng": [
+      6.2647,
+      80.691
+    ]
+  },
+  {
     "name": "Kayts",
     "lat_lng": [
       9.6923,
@@ -903,6 +1274,20 @@
     ]
   },
   {
+    "name": "Kirindiwela",
+    "lat_lng": [
+      7.0431,
+      80.1317
+    ]
+  },
+  {
+    "name": "Kithulgala",
+    "lat_lng": [
+      6.9979,
+      80.4085
+    ]
+  },
+  {
     "name": "Kobeigane",
     "lat_lng": [
       7.6558,
@@ -914,6 +1299,13 @@
     "lat_lng": [
       7.2649,
       79.859
+    ]
+  },
+  {
+    "name": "Kodikamam",
+    "lat_lng": [
+      9.6801,
+      80.2223
     ]
   },
   {
@@ -931,10 +1323,45 @@
     ]
   },
   {
+    "name": "Kosgoda",
+    "lat_lng": [
+      6.3386,
+      80.0289
+    ]
+  },
+  {
     "name": "Koslanda",
     "lat_lng": [
       6.7436,
       81.0182
+    ]
+  },
+  {
+    "name": "Kotagala",
+    "lat_lng": [
+      6.9253,
+      80.6091
+    ]
+  },
+  {
+    "name": "Kothmale",
+    "lat_lng": [
+      7.0651,
+      80.6839
+    ]
+  },
+  {
+    "name": "Kotikawatte",
+    "lat_lng": [
+      6.9361,
+      79.916
+    ]
+  },
+  {
+    "name": "Kotiyakumbura",
+    "lat_lng": [
+      7.1239,
+      80.2874
     ]
   },
   {
@@ -959,6 +1386,20 @@
     ]
   },
   {
+    "name": "Kumbukgate",
+    "lat_lng": [
+      7.6761,
+      80.4247
+    ]
+  },
+  {
+    "name": "Kurunduwatte",
+    "lat_lng": [
+      7.1272,
+      80.5298
+    ]
+  },
+  {
     "name": "Kurunegala",
     "lat_lng": [
       7.487,
@@ -980,10 +1421,38 @@
     ]
   },
   {
+    "name": "Laggala",
+    "lat_lng": [
+      7.5933,
+      80.8402
+    ]
+  },
+  {
+    "name": "Lindula",
+    "lat_lng": [
+      6.9272,
+      80.687
+    ]
+  },
+  {
     "name": "Lunugala",
     "lat_lng": [
       7.0419,
       81.2022
+    ]
+  },
+  {
+    "name": "Lunugamwehera",
+    "lat_lng": [
+      6.347,
+      81.1961
+    ]
+  },
+  {
+    "name": "Madagalla",
+    "lat_lng": [
+      7.8423,
+      80.3975
     ]
   },
   {
@@ -1050,10 +1519,31 @@
     ]
   },
   {
+    "name": "Makandura",
+    "lat_lng": [
+      6.1402,
+      80.5571
+    ]
+  },
+  {
     "name": "Malabe",
     "lat_lng": [
       6.9041,
       79.9546
+    ]
+  },
+  {
+    "name": "Mallavi",
+    "lat_lng": [
+      9.1467,
+      80.2923
+    ]
+  },
+  {
+    "name": "Malwana",
+    "lat_lng": [
+      6.9481,
+      80.0152
     ]
   },
   {
@@ -1148,6 +1638,13 @@
     ]
   },
   {
+    "name": "Medagama",
+    "lat_lng": [
+      7.0345,
+      81.276
+    ]
+  },
+  {
     "name": "Medamahanuwara",
     "lat_lng": [
       7.2891,
@@ -1155,10 +1652,38 @@
     ]
   },
   {
+    "name": "Medawachchiya",
+    "lat_lng": [
+      8.5388,
+      80.493
+    ]
+  },
+  {
     "name": "Medawala",
     "lat_lng": [
       7.3572,
       80.5658
+    ]
+  },
+  {
+    "name": "Medirigiriya",
+    "lat_lng": [
+      8.1423,
+      80.9713
+    ]
+  },
+  {
+    "name": "Meegahakiula",
+    "lat_lng": [
+      7.137,
+      81.0477
+    ]
+  },
+  {
+    "name": "Meegalewa",
+    "lat_lng": [
+      8.0552,
+      80.3542
     ]
   },
   {
@@ -1204,6 +1729,13 @@
     ]
   },
   {
+    "name": "Minuwangoda",
+    "lat_lng": [
+      7.1693,
+      79.9485
+    ]
+  },
+  {
     "name": "Mirissa",
     "lat_lng": [
       5.9494,
@@ -1239,6 +1771,27 @@
     ]
   },
   {
+    "name": "Muhammadiya Puram",
+    "lat_lng": [
+      7.2244,
+      81.828
+    ]
+  },
+  {
+    "name": "Mulankavil",
+    "lat_lng": [
+      9.2504,
+      80.1461
+    ]
+  },
+  {
+    "name": "Mulatiyana",
+    "lat_lng": [
+      6.1605,
+      80.5845
+    ]
+  },
+  {
     "name": "Mullaitivu",
     "lat_lng": [
       9.2699,
@@ -1253,10 +1806,24 @@
     ]
   },
   {
+    "name": "Mulleriyawa New Town",
+    "lat_lng": [
+      6.9282,
+      79.9277
+    ]
+  },
+  {
     "name": "Mulliyawalai",
     "lat_lng": [
       9.2255,
       80.7783
+    ]
+  },
+  {
+    "name": "M\u00e6lsiripura",
+    "lat_lng": [
+      7.6428,
+      80.5093
     ]
   },
   {
@@ -1274,10 +1841,24 @@
     ]
   },
   {
+    "name": "Nallathanniya",
+    "lat_lng": [
+      6.8255,
+      80.5226
+    ]
+  },
+  {
     "name": "Nallur",
     "lat_lng": [
       9.6735,
       80.029
+    ]
+  },
+  {
+    "name": "Nanu Oya",
+    "lat_lng": [
+      6.941,
+      80.7442
     ]
   },
   {
@@ -1295,10 +1876,38 @@
     ]
   },
   {
+    "name": "Naula",
+    "lat_lng": [
+      7.707,
+      80.6531
+    ]
+  },
+  {
+    "name": "Navatkuli",
+    "lat_lng": [
+      9.6627,
+      80.0832
+    ]
+  },
+  {
+    "name": "Nawagaththegama",
+    "lat_lng": [
+      8.0026,
+      80.1059
+    ]
+  },
+  {
     "name": "Nawalapitiya",
     "lat_lng": [
       7.0559,
       80.535
+    ]
+  },
+  {
+    "name": "Nedunkerny",
+    "lat_lng": [
+      9.0621,
+      80.6608
     ]
   },
   {
@@ -1316,10 +1925,24 @@
     ]
   },
   {
+    "name": "Nelliyady",
+    "lat_lng": [
+      9.7992,
+      80.1998
+    ]
+  },
+  {
     "name": "Neluwa",
     "lat_lng": [
       6.3773,
       80.3608
+    ]
+  },
+  {
+    "name": "Neriyakulam",
+    "lat_lng": [
+      8.6162,
+      80.3541
     ]
   },
   {
@@ -1337,10 +1960,24 @@
     ]
   },
   {
+    "name": "Nittambuwa",
+    "lat_lng": [
+      7.1439,
+      80.0956
+    ]
+  },
+  {
     "name": "Nivithigala",
     "lat_lng": [
       6.5959,
       80.4578
+    ]
+  },
+  {
+    "name": "Nochchiyagama",
+    "lat_lng": [
+      8.264,
+      80.2105
     ]
   },
   {
@@ -1386,6 +2023,13 @@
     ]
   },
   {
+    "name": "Opatha",
+    "lat_lng": [
+      6.2682,
+      80.4119
+    ]
+  },
+  {
     "name": "Paadeniya",
     "lat_lng": [
       7.6557,
@@ -1393,10 +2037,38 @@
     ]
   },
   {
+    "name": "Padalangala",
+    "lat_lng": [
+      6.2537,
+      80.9133
+    ]
+  },
+  {
+    "name": "Padaviya",
+    "lat_lng": [
+      8.834,
+      80.771
+    ]
+  },
+  {
+    "name": "Padiyapelella",
+    "lat_lng": [
+      7.0912,
+      80.799
+    ]
+  },
+  {
     "name": "Padiyathalawa",
     "lat_lng": [
       7.4002,
       81.2425
+    ]
+  },
+  {
+    "name": "Padukka",
+    "lat_lng": [
+      6.8415,
+      80.0916
     ]
   },
   {
@@ -1418,6 +2090,20 @@
     "lat_lng": [
       6.4819,
       80.7076
+    ]
+  },
+  {
+    "name": "Panama",
+    "lat_lng": [
+      6.7567,
+      81.8047
+    ]
+  },
+  {
+    "name": "Pandatharippu",
+    "lat_lng": [
+      9.775,
+      79.9717
     ]
   },
   {
@@ -1449,6 +2135,13 @@
     ]
   },
   {
+    "name": "Pelawaththa",
+    "lat_lng": [
+      6.4058,
+      80.2165
+    ]
+  },
+  {
     "name": "Pelawatte",
     "lat_lng": [
       6.8916,
@@ -1463,6 +2156,13 @@
     ]
   },
   {
+    "name": "Pemaduwa",
+    "lat_lng": [
+      8.4919,
+      80.2009
+    ]
+  },
+  {
     "name": "Pesalai",
     "lat_lng": [
       9.0848,
@@ -1474,6 +2174,20 @@
     "lat_lng": [
       7.2656,
       80.5521
+    ]
+  },
+  {
+    "name": "Pinnawala Town",
+    "lat_lng": [
+      6.718,
+      80.6782
+    ]
+  },
+  {
+    "name": "Pitabeddara",
+    "lat_lng": [
+      6.2011,
+      80.474
     ]
   },
   {
@@ -1505,6 +2219,20 @@
     ]
   },
   {
+    "name": "Polpithigama",
+    "lat_lng": [
+      7.8172,
+      80.405
+    ]
+  },
+  {
+    "name": "Pooliyawatta",
+    "lat_lng": [
+      6.8567,
+      80.6259
+    ]
+  },
+  {
     "name": "Poonakary",
     "lat_lng": [
       9.5043,
@@ -1533,10 +2261,45 @@
     ]
   },
   {
+    "name": "Pundaluoya",
+    "lat_lng": [
+      7.0138,
+      80.6668
+    ]
+  },
+  {
+    "name": "Pussellawa",
+    "lat_lng": [
+      7.1101,
+      80.6338
+    ]
+  },
+  {
+    "name": "Puthukkudiyirippu",
+    "lat_lng": [
+      9.3137,
+      80.6963
+    ]
+  },
+  {
     "name": "Puttalam",
     "lat_lng": [
       8.0302,
       79.8287
+    ]
+  },
+  {
+    "name": "Puwakpitiya",
+    "lat_lng": [
+      6.9408,
+      80.1942
+    ]
+  },
+  {
+    "name": "Ragala",
+    "lat_lng": [
+      7.0118,
+      80.8573
     ]
   },
   {
@@ -1568,6 +2331,13 @@
     ]
   },
   {
+    "name": "Ranna",
+    "lat_lng": [
+      6.097,
+      80.8751
+    ]
+  },
+  {
     "name": "Ratnapura",
     "lat_lng": [
       6.6804,
@@ -1575,10 +2345,24 @@
     ]
   },
   {
+    "name": "Rattota",
+    "lat_lng": [
+      7.5206,
+      80.6776
+    ]
+  },
+  {
     "name": "Rawathawatta",
     "lat_lng": [
       6.7879,
       79.8852
+    ]
+  },
+  {
+    "name": "Rikillagaskada",
+    "lat_lng": [
+      7.1461,
+      80.784
     ]
   },
   {
@@ -1645,6 +2429,20 @@
     ]
   },
   {
+    "name": "Talaimannar",
+    "lat_lng": [
+      9.1055,
+      79.7307
+    ]
+  },
+  {
+    "name": "Talawakele",
+    "lat_lng": [
+      6.9381,
+      80.6615
+    ]
+  },
+  {
     "name": "Tangalle",
     "lat_lng": [
       6.022,
@@ -1680,6 +2478,13 @@
     ]
   },
   {
+    "name": "Thambuttegama",
+    "lat_lng": [
+      8.1613,
+      80.3001
+    ]
+  },
+  {
     "name": "Thanamalwila",
     "lat_lng": [
       6.435,
@@ -1687,10 +2492,24 @@
     ]
   },
   {
+    "name": "Tharmapuram",
+    "lat_lng": [
+      9.407,
+      80.524
+    ]
+  },
+  {
     "name": "Thelijjawila",
     "lat_lng": [
       6.0246,
       80.4956
+    ]
+  },
+  {
+    "name": "Thirumurikandy",
+    "lat_lng": [
+      9.3019,
+      80.4041
     ]
   },
   {
@@ -1705,6 +2524,13 @@
     "lat_lng": [
       8.5764,
       81.2345
+    ]
+  },
+  {
+    "name": "Udapussellawa",
+    "lat_lng": [
+      6.9995,
+      80.904
     ]
   },
   {
@@ -1729,6 +2555,20 @@
     ]
   },
   {
+    "name": "Uhana",
+    "lat_lng": [
+      7.363,
+      81.6362
+    ]
+  },
+  {
+    "name": "Ukuwela",
+    "lat_lng": [
+      7.4213,
+      80.6332
+    ]
+  },
+  {
     "name": "Urubokka",
     "lat_lng": [
       6.3076,
@@ -1736,10 +2576,31 @@
     ]
   },
   {
+    "name": "Uruthirapuram",
+    "lat_lng": [
+      9.3931,
+      80.3537
+    ]
+  },
+  {
+    "name": "Vaddakachchi",
+    "lat_lng": [
+      9.3751,
+      80.4582
+    ]
+  },
+  {
     "name": "Valaichchenai",
     "lat_lng": [
       7.9091,
       81.5331
+    ]
+  },
+  {
+    "name": "Valvettithurai",
+    "lat_lng": [
+      9.822,
+      80.1696
     ]
   },
   {
@@ -1764,10 +2625,24 @@
     ]
   },
   {
+    "name": "Vellankulam",
+    "lat_lng": [
+      9.1862,
+      80.1302
+    ]
+  },
+  {
     "name": "Veyangoda",
     "lat_lng": [
       7.1534,
       80.0602
+    ]
+  },
+  {
+    "name": "Visuvamadu",
+    "lat_lng": [
+      9.3843,
+      80.5477
     ]
   },
   {
@@ -1799,10 +2674,31 @@
     ]
   },
   {
+    "name": "Wanduramba",
+    "lat_lng": [
+      6.1347,
+      80.255
+    ]
+  },
+  {
     "name": "Warakapola",
     "lat_lng": [
       7.225,
       80.1965
+    ]
+  },
+  {
+    "name": "Wariyapola",
+    "lat_lng": [
+      7.6198,
+      80.2461
+    ]
+  },
+  {
+    "name": "Watawala",
+    "lat_lng": [
+      6.9447,
+      80.5393
     ]
   },
   {
@@ -1820,10 +2716,31 @@
     ]
   },
   {
+    "name": "Weerakatiya",
+    "lat_lng": [
+      6.1476,
+      80.7633
+    ]
+  },
+  {
+    "name": "Weerapana",
+    "lat_lng": [
+      6.2507,
+      80.4203
+    ]
+  },
+  {
     "name": "Weerawila",
     "lat_lng": [
       6.2556,
       81.227
+    ]
+  },
+  {
+    "name": "Weligalla",
+    "lat_lng": [
+      7.1897,
+      80.5927
     ]
   },
   {
@@ -1848,6 +2765,20 @@
     ]
   },
   {
+    "name": "Welioya",
+    "lat_lng": [
+      8.9674,
+      80.7814
+    ]
+  },
+  {
+    "name": "Weliweriya",
+    "lat_lng": [
+      7.0323,
+      80.0283
+    ]
+  },
+  {
     "name": "Wellampitiya",
     "lat_lng": [
       6.9372,
@@ -1859,6 +2790,13 @@
     "lat_lng": [
       6.7318,
       81.1018
+    ]
+  },
+  {
+    "name": "Wennappuwa",
+    "lat_lng": [
+      7.3426,
+      79.8413
     ]
   },
   {
